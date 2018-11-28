@@ -1,0 +1,230 @@
+{
+  "login": {
+    "token": "nhrqRXtWzJc2SFUksvdDMroyJqyVri8cBKJMu8UbL6fq5rt5GrrRXmTSLeTjE4T+6QA+IJyg9qQ5UiyHi5ZwCw==",
+    "startDate": 1543396352520,
+    "ip": "0:0:0:0:0:0:0:1",
+    "user": {
+      "name": "luca.bianchi",
+      "id": 1,
+      "operations": [
+        "ADD_USER",
+        "CHANGE_ROLES",
+        "CREATE_BANK_ACCOUNT",
+        "CREATE_CONTACT",
+        "CREATE_LICENSE",
+        "CREATE_ORGANIZATION",
+        "CREATE_PRODUCT",
+        "MODIFY_GUI_COLORS",
+        "MODIFY_LOGO",
+        "MODIFY_ORGANIZATION",
+        "MODIFY_PROFILE",
+        "READ_ACTIONS",
+        "READ_BANK_ACCOUNT",
+        "READ_CLIENTS",
+        "READ_COMPANY",
+        "READ_DASHBOARD",
+        "READ_PRODUCTS",
+        "READ_PROFILE",
+        "READ_ROLES",
+        "READ_USER",
+        "READ_USERS",
+        "READ_VERSION",
+        "REMOVE_USER"
+      ],
+      "roles": [
+        {
+          "id": 2,
+          "name": "admin",
+          "level": 1
+        }
+      ],
+      "company": {
+        "id": 1,
+        "name": "Officine Bianchi"
+      },
+      "email": "luca.bianchi@officinebianchi.ext",
+      "firstName": "Luca",
+      "lastName": "Bianchi",
+      "registrationDate": 1542292396000,
+      "availableModules": [
+        "CORE"
+      ]
+    },
+    "endDate": 1545988352520,
+    "id": 6
+  },
+  "self": {
+    "name": "luca.bianchi",
+    "id": 1,
+    "operations": [
+      "ADD_USER",
+      "CHANGE_ROLES",
+      "CREATE_BANK_ACCOUNT",
+      "CREATE_CONTACT",
+      "CREATE_LICENSE",
+      "CREATE_ORGANIZATION",
+      "CREATE_PRODUCT",
+      "MODIFY_GUI_COLORS",
+      "MODIFY_LOGO",
+      "MODIFY_ORGANIZATION",
+      "MODIFY_PROFILE",
+      "READ_ACTIONS",
+      "READ_BANK_ACCOUNT",
+      "READ_CLIENTS",
+      "READ_COMPANY",
+      "READ_DASHBOARD",
+      "READ_PRODUCTS",
+      "READ_PROFILE",
+      "READ_ROLES",
+      "READ_USER",
+      "READ_USERS",
+      "READ_VERSION",
+      "REMOVE_USER"
+    ],
+    "roles": [
+      {
+        "id": 2,
+        "name": "admin",
+        "level": 1
+      }
+    ],
+    "company": {
+      "id": 1,
+      "name": "Officine Bianchi"
+    },
+    "email": "luca.bianchi@officinebianchi.ext",
+    "firstName": "Luca",
+    "lastName": "Bianchi",
+    "registrationDate": 1542292396000,
+    "availableModules": [
+      "CORE"
+    ]
+  },
+  "categories": [
+    "ASSOCIAZIONE",
+    "AZIENDA",
+    "ENTE",
+    "LIBERO_PROFESSIONISTA",
+    "PRIVATO",
+    "PUBBLICA_AMMINISTRAZIONE"
+  ],
+  "organizationSearch": [
+    {
+      "id": 1,
+      "name": "Officine Rossi",
+      "creationDate": 1542293197000,
+      "vatNumber": "123456789",
+      "pec": "",
+      "category": "AZIENDA",
+      "company": 1,
+      "branches": [
+        {
+          "type": "ORGANIZATION",
+          "id": 2,
+          "name": "principale",
+          "address": "via sede principale",
+          "mainOffice": true,
+          "mainShipping": true,
+          "ibanList": [],
+          "contacts": [
+            {
+              "id": 1,
+              "firstName": "Paolo",
+              "lastName": "Verdi",
+              "appointments": [],
+              "contractDeadlines": [],
+              "fullName": "Verdi Paolo"
+            }
+          ]
+        },
+        {
+          "type": "ORGANIZATION",
+          "id": 3,
+          "name": "magazzino",
+          "address": "via del magazzino",
+          "mainOffice": false,
+          "mainShipping": false,
+          "ibanList": [
+            "1234567898765432123"
+          ],
+          "contacts": []
+        },
+        {
+          "id": 4,
+          "name": "uffici",
+          "address": "via degli uffici",
+          "mainOffice": false,
+          "mainShipping": false,
+          "ibanList": [],
+          "contacts": [],
+          "type": "ORGANIZATION"
+        }
+      ],
+      "appointments": [],
+      "invoices": [],
+      "quotes": [],
+      "type": "CLIENT"
+    },
+    {
+      "id": 2,
+      "name": "Bretone Fulvio",
+      "category": "PRIVATO",
+      "company": 1,
+      "branches": [
+        {
+          "id": 5,
+          "name": "principale",
+          "mainOffice": false,
+          "mainShipping": false,
+          "ibanList": [],
+          "contacts": [
+            {
+              "id": 2,
+              "firstName": "Fulvio",
+              "lastName": "Bretone",
+              "appointments": [],
+              "contractDeadlines": [],
+              "fullName": "Fulvio Bretone"
+            }
+          ],
+          "type": "ORGANIZATION"
+        }
+      ],
+      "appointments": [],
+      "invoices": [],
+      "quotes": [],
+      "type": "CLIENT"
+    },
+    {
+      "id": 4,
+      "name": "Piani Giorgio",
+      "category": "PRIVATO",
+      "company": 1,
+      "branches": [
+        {
+          "id": 7,
+          "name": "principale",
+          "address": "via dei pini",
+          "mainOffice": false,
+          "mainShipping": true,
+          "ibanList": [],
+          "contacts": [
+            {
+              "id": 4,
+              "firstName": "Giorgio",
+              "lastName": "Piani",
+              "appointments": [],
+              "contractDeadlines": [],
+              "fullName": "Giorgio Piani"
+            }
+          ],
+          "type": "ORGANIZATION"
+        }
+      ],
+      "appointments": [],
+      "invoices": [],
+      "quotes": [],
+      "type": "CLIENT"
+    }
+  ]
+}
